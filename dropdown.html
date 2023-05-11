@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop down</title>
+    <style>
+        .parent{
+            position: relative;
+        }
+        .list{
+            display: none;
+        }
+        .parent:hover .list{
+            display: block;
+        }
+        a{
+            display: block;
+        }
+        .box{
+            float: left;
+            width: 25%;
+        }
+        @media screen and (max-width: 768px){
+            .box{
+                float: left;
+                width: 50%;
+
+            }
+        }
+        @media screen and (max-width: 576px){
+            .box{
+                float: left;
+                width: 100%;
+
+            }
+          
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <span>Programming</span>
+        <div class="list">
+            <a href="#">client-end</a>
+            <a href="#">Serverside</a>
+        </div>
+    </div>
+    <br />
+    <p class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis numquam, corporis veniam sunt voluptates repellat dolorem ullam, veritatis deserunt id ut amet animi esse placeat omnis non! Voluptates, iure quas!</p>
+    <p class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quod pariatur delectus porro consequuntur maxime voluptate repellendus quisquam, autem ut impedit esse eaque nihil voluptatem tenetur? Iste accusamus at nam.</p>
+    <p class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, facere rerum quam laborum beatae dolorum culpa, numquam reprehenderit corporis soluta ad nihil at! Quod repellat, aliquid id illum non tempore.</p>
+    <p class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, magni! Quibusdam quisquam fuga quia tempora repellat veritatis, reiciendis architecto minima aperiam obcaecati iure, sed blanditiis doloremque, commodi pariatur. Rerum, quas.</p>
+
+
+    <br />
+    <br />
+   
+</body>
+</html>
